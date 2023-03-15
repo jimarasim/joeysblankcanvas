@@ -1,0 +1,1 @@
+scp index.html ubuntu@stuffedanimalwar.com:/home/jimara0/joeysblankcanvas.com
