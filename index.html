@@ -8,24 +8,34 @@
             color: white;
         }
 
-        .center {
+        .container {
             display: flex;
-            flex-direction: column;
+            flex-wrap: wrap;
             justify-content: center;
             align-items: center;
             height: 100vh;
         }
 
-        a{
+        .container img {
+            margin: 10px;
+        }
+        h1, h2, h3, p, a {
             color: lightcyan;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-<div class="center">
-    <h1>Joey's Blank Canvas</h1>
-    <h2><a href="mailto:joeypaintbrush@yahoo.com">joeypaintbrush@yahoo.com</a></h2>
+<h1>Joey's Blank Canvas</h1>
+<h2><a href="mailto:joeypaintbrush@yahoo.com">joeypaintbrush@yahoo.com</a></h2>
+<div class="container">
     <img src="joeysblankcanvas.jpg" alt="joeys blank canvas image" />
+    <br />
+    <img src="frames.jpeg" alt="joeys blank canvas image" />
+    <br />
+    <img src="smallstack.jpeg" alt="joeys blank canvas image" />
+    <br />
+    <img src="stack.jpeg" alt="joeys blank canvas image" />
 </div>
 </body>
 </html>
